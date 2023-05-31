@@ -1,0 +1,97 @@
+.navbar-burger {
+    margin-left: auto;
+}
+
+.borde {
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+}
+
+.borde2 {
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.radio25 {
+    border-radius: 25px;
+}
+
+.has-text-blue {
+    color: #18145c;
+}
+
+.has-text-purple {
+    color: #4623f6;
+}
+
+.has-background-purple {
+    background-color: #4623f6;
+}
+
+.has-background-blue {
+    background-color: #18145c;
+}
+
+.has-background-light-blue {
+    background-color: #00224a;
+}
+
+.imgservicio {
+    border: 2px solid white;
+}
+
+.overbackground {
+    z-index: 1;   
+}
+
+.envolvente {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.imagenboton {
+	box-shadow: 8px -8px 0 -2px #8AEB32, 8px -8px 0 0 black;
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+.imagenboton:hover {
+	box-shadow: 4px -4px 0 -2px #8AEB32, 4px -4px 0 0 black;
+	opacity: 0.8;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.imgsize {
+  height: 3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-item .imgsize {
+	max-height: unset; !important
+}
+
+.hero.has-background {
+  position: relative;
+  overflow: hidden;
+}
+.hero-background {
+  position: absolute;
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100%;
+}
+.hero-background.is-transparent {
+  opacity: 0.3;
+}
+
+@media (max-width: 1023px) { 
+   .revertido { 
+        flex-direction: column-reverse; 
+    }
+}
