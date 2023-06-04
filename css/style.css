@@ -2,6 +2,14 @@
     margin-left: auto;
 }
 
+.highlight {
+    color:#fff;
+    background:#18145c;
+    border-radius: 5px;
+    box-shadow:5px 0 0 #18145c, -5px 0 0 #18145c;
+    padding: 5px 0;
+}
+
 .borde {
     border-left: 2px solid #fff;
     border-top: 2px solid #fff;
@@ -88,6 +96,11 @@
 }
 .hero-background.is-transparent {
   opacity: 0.3;
+}
+
+.gradiente {
+	background: rgb(87,3,97);
+	background: linear-gradient(90deg, rgba(87,3,97,1) 0%, rgba(1,5,65,1) 100%);
 }
 
 @media (max-width: 1023px) { 
