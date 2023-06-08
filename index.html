@@ -4,9 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 	<title>Inicio - Cinsdata</title>
-	<link rel="stylesheet" type="text/css" href="css/bulma.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bulma.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css"/>
+	<!-- Google tag (gtag.js) --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MZEF46P8LL"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MZEF46P8LL'); </script>
 </head>
 <body>
     <div class="envolvente">
@@ -27,7 +30,7 @@
 			    <div class="navbar-end is-size-4">
                   <a class="navbar-item is-family-secondary" href="servicios.html">Servicios</a>
                   <a class="navbar-item is-family-secondary" href="proyectos.html">Proyectos</a>
-                  <a class="navbar-item is-family-secondary" href="index.html#testimonios">Testimonios</a>
+                  <a class="navbar-item is-family-secondary is-hidden" href="index.html#testimonios">Testimonios</a>
                   <a class="navbar-item is-family-secondary" href="index.html#equipo">Equipo</a>
                   <a class="navbar-item is-family-secondary" href="#contacto">Contacto</a>
 			    </div>
@@ -39,8 +42,16 @@
 	<div class="content has-text-centered">
         <section class="hero is-halfheight has-background">
             <img src="images/fondologotipo.jpg" class="hero-background"/>
-            <div class="hero-body">
-                <img class="overbackground" src="images/logohome.png" alt="Logotipo de Cinsdata" />
+            <div class="hero-body has-text-centered">
+		    <div class="container">
+		    <div class="columns is-centered">
+		    	<div class="column is-three-quarters">
+				<figure class="image">
+                			<img class="overbackground" src="images/logohome.png" alt="Logotipo de Cinsdata" />
+				</figure>
+			   </div>
+		    </div>
+		    </div>
             </div>
         </section>
         <p class="is-size-1 has-text-weight-light my-6">Producimos inteligencia e innovación para nuestros clientes</p>
@@ -95,22 +106,89 @@
             </div>
         </section>
         <section>
-            <p class="is-uppercase is-size-1 has-text-weight-bold has-text-blue">Proyectos</p>
-            <div class="hero is-medium has-background">
-                <img src="images/proyectos.jpg" class="hero-background"/>
-                <div class="hero-body">
-                    <div class="columns">
-                        <div class="column"></div>
-                        <div class="column is-four-fifths">
-                            <figure class="image is-16by9">
-                                <img src="images/biblioteca.jpg" class="hero-background" alt="Lixandria, una plataforma apra reducir la deserción universitaria"/>
-                            </figure>
+            <p class="is-uppercase is-size-1 has-text-weight-bold has-text-blue my-6">Proyectos</p>
+	    	<section class="hero is-medium has-carousel has-background">
+                	<img src="images/proyectos.jpg" class="hero-background"/>
+			<div id="slider-proyectos">
+				
+				<div class="item-1">
+									<div class="columns is-vcentered is-gapless">
+				<div class="column">
+					<div class="hero is-medium has-background-blue borders-right">
+						<div class="hero-body">
+							<p class="has-text-white is-size-2 has-text-left">Una plataforma para reducir la deserción universitaria mediante comparación de carreras afines</p>
+							
+							<a class="button has-text-white has-background-purple" href="proyectos.html#lixandria">Ver más</a>
+							
+						</div>
+					</div> 
+				</div>
+				<div class="column">
+					<div class="hero is-medium has-background">
+                                		<img class="hero-background" src="images/proyectos/lixandria_fondo.jpg" alt="Lixandria, una plataforma apra reducir la deserción universitaria"/>
+						<div class="hero-body">
+							<div class="container">
+								<p class="has-text-white is-size-2 py-6"><span class="highlight">Lixandria</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>
+				<div class="item-2">
+									<div class="columns is-vcentered is-gapless">
+				<div class="column">
+					<div class="hero is-medium has-background-blue borders-right">
+						<div class="hero-body">
+							<p class="has-text-white is-size-2 has-text-left">Un servicio para discusiones colaborativas que generan soluciones a problemas complejos</p>
+							
+							<a class="button has-text-white has-background-purple" href="proyectos.html#discolab">Ver más</a>
+							
+						</div>
+					</div> 
+				</div>
+				<div class="column">
+					<div class="hero is-medium has-background">
+                                		<img class="hero-background" src="images/proyectos/discolab_fondo.jpg" alt="Discolab, Discusiones colaborativas para Chile"/>
+						<div class="hero-body">
+							<div class="container">
+								<p class="has-text-white is-size-2 py-6"><span class="highlight">Discolab</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>
+				<div class="item-3">
+									<div class="columns is-vcentered is-gapless">
+				<div class="column">
+					<div class="hero is-medium has-background-blue borders-right">
+						<div class="hero-body">
+							<p class="has-text-white is-size-2 has-text-left">Cuántificación de la relación con el automóvil y predicción de próxima compra mediante redes neuronales</p>
+							
+							<a class="button has-text-white has-background-purple" href="proyectos.html#derco">Ver más</a>
+							
+						</div>
+					</div> 
+				</div>
+				<div class="column">
+					<div class="hero is-medium has-background">
+                                		<img class="hero-background" src="images/proyectos/derco_fondo.jpg" alt="Revving up sales, plataforma para mejorar la tomade decisiones en la industria automotriz"/>
+						<div class="hero-body">
+							<div class="container">
+								<p class="has-text-white is-size-2 py-6"><span class="highlight">Revving Up Sales: DERCO</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>
+				
                         </div>
-                    <div class="column"></div>
-                </div>
-            </div>
+		</section>
         </section>
-        <section id="testimonios" class="box has-background-light-blue mt-6"> <!-- mx-6 p-6 -->
+        <section id="testimonios" class="box has-background-light-blue mt-6 is-hidden"> <!-- mx-6 p-6 -->
+		<div class="item-1">
             <div class="columns is-vcentered">
                 <div class="column is-two-thirds">
                     <p class="is-size-3 has-text-center is-uppercase has-text-white has-text-weight-bold">Testimonio</p>
@@ -128,55 +206,143 @@
                     <p>Cargo y empresa</p>
                 </div>
             </div>
-        </section>
-        <section>
-            <p id="equipo" class="is-uppercase is-size-1 has-text-weight-bold has-text-blue">Equipo</p>
-            <div class="level has-background-blue py-5">
-                <div class="level-item has-text-centered has-text-white">
-                    <div>
-                        <figure class="image is-128x128">
-                            <img class="is-rounded" src="images/servicios/1.jpg" alt="Fotografía" />
+            </div>
+		<div class="item-2">
+            <div class="columns is-vcentered">
+                <div class="column is-two-thirds">
+                    <p class="is-size-3 has-text-center is-uppercase has-text-white has-text-weight-bold">Testimonio</p>
+                    <div class="box has-background-blue"> <!-- p-6 -->
+                        <figure>
+                            <p class="has-text-white is-size-4"><span><i class="fa fa-quote-left fa-fw" aria-hidden="true"></i></span>Diseñar experiencias de servicio para las personas requiere empatizar con sus emociones, necesidades y expectativas, Bagua nos ha invitado a colaborar activamente en este proceso con nuestra experiencia en investigación. Contar con diagnósticos certeros para enriquecer las experiencias de servicio puede mejorar la vida cotidiana de las personas. Es una meta que compartimos<span><i class="fa fa-fw fa-quote-right" aria-hidden="true"></i></span></p>
                         </figure>
-                        <p>Nombre persona</p>
-                        <hr>
-                        <p>Cargo</p>
-                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                     </div>
                 </div>
-                <div class="level-item has-text-centered has-text-white">
-                    <div>
-                        <figure class="image is-128x128">
-                            <img class="is-rounded" src="images/servicios/1.jpg" alt="Fotografía" />
-                        </figure>
-                        <p>Nombre persona</p>
-                        <hr>
-                        <p>Cargo</p>
-                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    </div>
-                </div>
-                <div class="level-item has-text-centered has-text-white">
-                    <div>
-                        <figure class="image is-128x128">
-                            <img class="is-rounded" src="images/servicios/1.jpg" alt="Fotografía" />
-                        </figure>
-                        <p>Nombre persona</p>
-                        <hr>
-                        <p>Cargo</p>
-                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    </div>
-                </div>
-                <div class="level-item has-text-centered has-text-white">
-                    <div>
-                        <figure class="image is-128x128">
-                            <img class="is-rounded" src="images/servicios/1.jpg" alt="Fotografía" />
-                        </figure>
-                        <p>Nombre persona</p>
-                        <hr>
-                        <p>Cargo</p>
-                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    </div>
+                <div class="column has-text-white">
+                    <figure class="image">
+                        <img class="is-rounded" src="images/servicios/1.jpg" alt="Fotografía" />
+                    </figure>
+                    <p>Nombre persona</p>
+                    <p>Cargo y empresa</p>
                 </div>
             </div>
+            </div>
+        </section>
+	        <section>
+            <p id="equipo" class="is-uppercase is-size-1 has-text-weight-bold has-text-blue">Equipo</p>
+            <div class="level has-background-blue py-5" id="slider-equipo">
+            	<div class="level-item has-text-centered has-text-white">
+               	    <div class="item-1">
+                        <figure class="image is-128x128">
+                            <img class="is-rounded" src="images/equipo/cristian candia.jpeg" alt="Fotografía de Cristian Candia" />
+                        </figure>
+                        <p>Cristian Candia</p>
+                        <hr>
+                        <p>CEO</p>
+			            <a href="https://www.linkedin.com/in/cristian-candia-castro-ph-d-04040251/">
+                        	<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+			            </a>
+			<div class="my-6 is-hidden-mobile"></div>
+                    </div>
+                </div>
+            	<div class="level-item has-text-centered has-text-white">
+               	    <div class="item-2">
+                        <figure class="image is-128x128">
+                            <img class="is-rounded" src="images/equipo/jorge jara.jpeg" alt="Fotografía de Jorge Jara" />
+                        </figure>
+                        <p>Jorge Jara</p>
+                        <hr>
+                        <p>CMO</p>
+			            <a href="https://www.linkedin.com/in/jorgejaraocampo/">
+                        	<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+			            </a>
+			<div class="my-6 is-hidden-mobile"></div>
+                    </div>
+                </div>
+            	<div class="level-item has-text-centered has-text-white">
+               	    <div class="item-3">
+                        <figure class="image is-128x128">
+                            <img class="is-rounded" src="images/equipo/cecilia monge.png" alt="Fotografía de Cecilia Monge" />
+                        </figure>
+                        <p>Cecilia Monge</p>
+                        <hr>
+                        <p>Asesora comunicacional</p>
+                        <i class="fa fa-linkedin-square is-hidden" aria-hidden="true"></i>
+			<div class="my-6 is-hidden-mobile"></div>
+                    </div>
+                </div>
+            	<div class="level-item has-text-centered has-text-white">
+               	    <div class="item-4">
+                        <figure class="image is-128x128">
+                            <img class="is-rounded" src="images/equipo/nikol escribano.png" alt="Fotografía de Nikol Escribano" />
+                        </figure>
+                        <p>Nikol Escribano</p>
+                        <hr>
+                        <p>Asesora de diseño</p>
+                        <i class="fa fa-linkedin-square is-hidden" aria-hidden="true"></i>
+			<div class="my-6 is-hidden-mobile"></div>
+                    </div>
+		</div>
+		<div class="level-item has-text-centered has-text-white">
+               	    <div class="item-5">
+                        <figure class="image is-128x128">
+                            <img class="is-rounded" src="images/equipo/adolfo fuentes.png" alt="Fotografía de Adolfo Fuentes" />
+                        </figure>
+                        <p>Adolfo Fuentes</p>
+                        <hr>
+                        <p>Data scientist</p>
+                        <i class="fa fa-linkedin-square is-hidden" aria-hidden="true"></i>
+			<div class="my-6 is-hidden-mobile"></div>
+                    </div>
+		</div>
+		<div class="level-item has-text-centered has-text-white">
+               	    <div class="item-6">
+                        <figure class="image is-128x128">
+                            <img class="is-rounded" src="images/equipo/yessica herrera.png" alt="Fotografía de Yessica Herrera" />
+                        </figure>
+                        <p>Yessica Herrera</p>
+                        <hr>
+                        <p>Data scientist</p>
+                        <i class="fa fa-linkedin-square is-hidden" aria-hidden="true"></i>
+			<div class="my-6 is-hidden-mobile"></div>
+                    </div>
+		</div>
+		<div class="level-item has-text-centered has-text-white">
+               	    <div class="item-7">
+                        <figure class="image is-128x128">
+				<img class="is-rounded" src="images/equipo/nicolas hormazabal.png" alt="Fotografía de Nicolás Hormazábal" />
+                        </figure>
+                        <p>Nicolás Hormazábal</p>
+                        <hr>
+                        <p>Developer</p>
+                        <i class="fa fa-linkedin-square is-hidden" aria-hidden="true"></i>
+			<div class="my-6 is-hidden-mobile"></div>
+                    </div>
+		</div>
+		<div class="level-item has-text-centered has-text-white">
+               	    <div class="item-8">
+                        <figure class="image is-128x128">
+				<img class="is-rounded" src="images/equipo/victor landaeta.png" alt="Fotografía de Victor Landaeta" />
+                        </figure>
+                        <p>Victor Landaeta</p>
+                        <hr>
+                        <p>Data scientist</p>
+                        <i class="fa fa-linkedin-square is-hidden" aria-hidden="true"></i>
+			<div class="my-6 is-hidden-mobile"></div>
+                    </div>
+		</div>
+		<div class="level-item has-text-centered has-text-white">
+               	    <div class="item-9">
+                        <figure class="image is-128x128">
+				<img class="is-rounded" src="images/equipo/melanie oyarzun.png" alt="Fotografía de Melanie Oyarzún" />
+                        </figure>
+			<p>Melanie Oyarzún</p>
+                        <hr>
+                        <p>Data scientist</p>
+                        <i class="fa fa-linkedin-square is-hidden" aria-hidden="true"></i>
+			<div class="my-6 is-hidden-mobile"></div>
+                    </div>
+		</div>
+	     </div>
         </section>
         <section class="columns is-centered py-6">
             <div class="column is-three-quarters">
@@ -196,7 +362,7 @@
     <div class="column is-two-thirds is-offset-2">
         <div class="container has-text-centered">
             <h1 class="title has-text-white">Contacto</h1>        
-            <form action=""
+            <form action="https://formkeep.com/f/851920d791b4"
             accept-charset="UTF-8"
             enctype="multipart/form-data"
             method="POST">
@@ -268,9 +434,35 @@
 </div>
 </div>
 </section>
+<footer>
+	<div class="py-2 has-background-grey-lighter has-text-centered">
+	    <p class="has-text-beet">Desarrollado por <a id="webdev" href="https://betarraga.cl">betarraga</a></p>
+	</div>
+</footer>
 	</footer>
     </div>
 	<!-- Javascrip -->
 	<script src="js/index.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+	<script>
+        bulmaCarousel.attach('#slider-equipo', {
+            slidesToScroll: 1,
+            slidesToShow: 4,
+            infinite: true,
+            autoplay: true
+        });
+        bulmaCarousel.attach('#testimonios', {
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            infinite: true,
+            autoplay: true
+        });
+        bulmaCarousel.attach('#slider-proyectos', {
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            infinite: true,
+            autoplay: true
+        });
+    	</script>
 </body>
 </html>

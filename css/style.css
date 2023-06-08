@@ -10,6 +10,11 @@
     padding: 5px 0;
 }
 
+.borders-right {
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
 .borde {
     border-left: 2px solid #fff;
     border-top: 2px solid #fff;
@@ -30,6 +35,15 @@
 
 .has-text-purple {
     color: #4623f6;
+}
+
+.has-text-beet {
+    color: #7a1f3d;
+}
+
+#webdev {
+    color: #7a1f3d;
+    font-weight: bold;
 }
 
 .has-background-purple {

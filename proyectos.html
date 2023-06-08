@@ -4,9 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 	<title>Proyectos - Cinsdata</title>
-	<link rel="stylesheet" type="text/css" href="css/bulma.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bulma.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css"/>
+	<!-- Google tag (gtag.js) --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MZEF46P8LL"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MZEF46P8LL'); </script>
 </head>
 <body>
     <div class="envolvente">
@@ -27,7 +30,7 @@
 			    <div class="navbar-end is-size-4">
                   <a class="navbar-item is-family-secondary" href="servicios.html">Servicios</a>
                   <a class="navbar-item is-family-secondary" href="proyectos.html">Proyectos</a>
-                  <a class="navbar-item is-family-secondary" href="index.html#testimonios">Testimonios</a>
+                  <a class="navbar-item is-family-secondary is-hidden" href="index.html#testimonios">Testimonios</a>
                   <a class="navbar-item is-family-secondary" href="index.html#equipo">Equipo</a>
                   <a class="navbar-item is-family-secondary" href="#contacto">Contacto</a>
 			    </div>
@@ -37,29 +40,113 @@
     <section id="contenido">
 	
 	<div class="content has-text-centered">
-		<p class="is-size-1 is-uppercase has-text-weight-bold has-text-blue">Servicios</p>
+		<p class="is-size-1 is-uppercase has-text-weight-bold has-text-blue">Proyectos</p>
 		<section class="section gradiente">
-			<div class="columns is-vcentered is-gapless">
-				<div class="column has-background-blue my-3 ml-3">
-					<p class="has-text-white">Una plataforma para reducir la deserción universitaria</p>
-					<a class="button has-text-white has-background-purple" href="https://lixandria.cl">Visitar plataforma</a>
-				</div>
-				<div class="column is-one-fifth">
-					<p>Logo</p>
+			<div id="lixandria">
+							<div class="columns is-vcentered is-gapless">
+				<div class="column">
+					<div class="hero is-medium has-background-blue borders-right">
+						<div class="hero-body">
+							<p class="has-text-white is-size-2 has-text-left">Una plataforma para reducir la deserción universitaria mediante comparación de carreras afines</p>
+							
+							<a class="button has-text-white has-background-purple" href="https://lixandria.cl">Visitar plataforma</a>
+							
+						</div>
+					</div> 
 				</div>
 				<div class="column">
-					<div class="hero has-background">
-                                		<img class="hero-background" src="images/biblioteca.jpg" alt="Lixandria, una plataforma apra reducir la deserción universitaria"/>
+					<div class="hero is-medium has-background">
+                                		<img class="hero-background" src="images/proyectos/lixandria_fondo.jpg" alt="Lixandria, una plataforma apra reducir la deserción universitaria"/>
 						<div class="hero-body">
 							<div class="container">
-								<p class="has-text-white"><span class="highlight">Lixandria</span></p>
+								<p class="has-text-white is-size-2 py-6"><span class="highlight">Lixandria</span></p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<p class="has-text-white">La plataforma discolab contribuye a generar soluciones a problemas complejos a través de un servicio para reali- zar lecturas y discusiones colaborativas. Discolab pone a los usuarios en el centro y tiene como misión aumentar a las personas a través de sus interacciones con otros, con máquinas, y mediante distintas formas de procesar la in- formación. Esta idea surge como a continuación de la investigación postdoctoral en compromiso y difusión de la información en contenido en línea realizada por el académico Cristian Candia-Castro Vallejos, Ph.D. en la Kellogg School of Management, Northwestern University.</p>
+				<p class="has-text-white has-text-left">A partir de más de un millón de postulaciones universitarias, el físico chileno Cristian Candia-Castro desarrolló el “Espacio de Educación Superior”, una red que sistematiza información utilizando inteligencia artificial. A través de la web de Lixan- dria, estudiantes y orientadores pueden explorar, comparar y ampliar las opciones de carreras. La plataforma de libre acceso permite comparar carreras de preferencia con información de diversas fuentes, tales como el Ministerio de Educación, DEMRE y mifuturo.cl.</p>
+			</div>
         	</section>
+		<section class="section has-background-grey">
+			<figure class="image">
+				<img src="images/proyectos/lixandria1.png" alt="Captura de pantalla de la plataforma"/>
+			</figure>
+			<figure class="image">
+				<img src="images/proyectos/lixandria2.png" alt="Captura de pantalla de la plataforma"/>
+			</figure>
+		</section>
+		<section class="section gradiente">
+			<div id="discolab">
+							<div class="columns is-vcentered is-gapless">
+				<div class="column">
+					<div class="hero is-medium has-background-blue borders-right">
+						<div class="hero-body">
+							<p class="has-text-white is-size-2 has-text-left">Un servicio para discusiones colaborativas que generan soluciones a problemas complejos</p>
+							
+							<a class="button has-text-white has-background-purple" href="https://discolab.azurewebsites.net/">Visitar plataforma</a>
+							
+						</div>
+					</div> 
+				</div>
+				<div class="column">
+					<div class="hero is-medium has-background">
+                                		<img class="hero-background" src="images/proyectos/discolab_fondo.jpg" alt="Discolab, Discusiones colaborativas para Chile"/>
+						<div class="hero-body">
+							<div class="container">
+								<p class="has-text-white is-size-2 py-6"><span class="highlight">Discolab</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<p class="has-text-white has-text-left">La plataforma discolab contribuye a generar soluciones a problemas complejos a través de un servicio para realizar lecturas y discusiones colaborativas. Discolab pone a los usuarios en el centro y tiene como misión aumentar a las personas a través de sus interacciones con otros, con máquinas, y mediante distintas formas de procesar la in- formación. Esta idea surge como a continuación de la investigación postdoctoral en compromiso y difusión de la información en contenido en línea realizada por el académico Cristian Candia-Castro Vallejos, Ph.D. en la Kellogg School of Management, Northwestern University.</p>
+			</div>
+		</section>
+		<section class="section has-background-grey">
+			<figure class="image">
+				<img src="images/proyectos/discolab1.png" alt="Captura de pantalla de la plataforma"/>
+			</figure>
+			<figure class="image">
+				<img src="images/proyectos/discolab2.png" alt="Captura de pantalla de la plataforma"/>
+			</figure>
+		</section>
+		<section class="section gradiente">
+			<div id="derco">
+							<div class="columns is-vcentered is-gapless">
+				<div class="column">
+					<div class="hero is-medium has-background-blue borders-right">
+						<div class="hero-body">
+							<p class="has-text-white is-size-2 has-text-left">Cuántificación de la relación con el automóvil y predicción de próxima compra mediante redes neuronales</p>
+							
+							<p class="has-text-white is-size-5 has-text-left">Este proyecto de investigación tiene como objetivo mejorar el proceso de toma de decisiones en la industria automotriz.</p>
+							
+						</div>
+					</div> 
+				</div>
+				<div class="column">
+					<div class="hero is-medium has-background">
+                                		<img class="hero-background" src="images/proyectos/derco_fondo.jpg" alt="Revving up sales, plataforma para mejorar la tomade decisiones en la industria automotriz"/>
+						<div class="hero-body">
+							<div class="container">
+								<p class="has-text-white is-size-2 py-6"><span class="highlight">Revving Up Sales: DERCO</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<p class="has-text-white has-text-left">Analizamos los datos completos del permiso de circulación desde 2016 hasta 2021 para establecer una estructura de red relacional de los vehículos y su representación de incrustación. Luego, desarrollamos sistemas de recomendación que se ajustaron utilizando datos de los clientes. En consecuencia, el proyecto pretende proporcionar conocimientos va- liosos para la toma de decisiones que puedan satisfacer las necesidades de los clientes actuales y futuros.</p>
+				<p class="has-text-white has-text-left">Este proyecto se llevó a cabo como parte del Proyecto Estratégico de Personalización de la Universidad, y requirió superar varios desafíos. El primero de ellos fue integrar datos de diversas fuentes, cada una con sus propios formatos únicos, lo que requirió un esfuerzo significativo para garantizar la compatibilidad. Además, la privacidad y la seguridad fueron preocupaciones primordiales dada la naturaleza sensible de los datos. Para abordar estos problemas, desarrollamos tanto un protocolo de anonimización como un proceso de desidentificación que podía preservar la granularidad necesaria de los datos. Nuestro equipo también desarrolló un algoritmo novedoso capaz de crear un punto de referencia para inferir redes sociales a partir de conexiones de router. Finalmente, integramos el análisis de datos mixtos, individuales y relacionales para construir un sistema de recomendación basado en aprendizaje automático y redes de interacción, lo que representa un enfoque de vanguardia. Nuestro trabajo será valioso para investigadores y empresas que busquen desarrollar sistemas de recomendación de última generación en sus propias investigaciones o emprendimientos comerciales.</p>
+			</div>
+		</section>
+		<section class="section has-background-grey">
+			<figure class="image">
+				<img src="images/proyectos/autos1.jpeg" alt="Captura de pantalla de la plataforma"/>
+			</figure>
+			<figure class="image">
+				<img src="images/proyectos/autos2.jpeg" alt="Captura de pantalla de la plataforma"/>
+			</figure>
+		</section>
 	</div>
 
     </section>
@@ -71,7 +158,7 @@
     <div class="column is-two-thirds is-offset-2">
         <div class="container has-text-centered">
             <h1 class="title has-text-white">Contacto</h1>        
-            <form action=""
+            <form action="https://formkeep.com/f/851920d791b4"
             accept-charset="UTF-8"
             enctype="multipart/form-data"
             method="POST">
@@ -143,9 +230,35 @@
 </div>
 </div>
 </section>
+<footer>
+	<div class="py-2 has-background-grey-lighter has-text-centered">
+	    <p class="has-text-beet">Desarrollado por <a id="webdev" href="https://betarraga.cl">betarraga</a></p>
+	</div>
+</footer>
 	</footer>
     </div>
 	<!-- Javascrip -->
 	<script src="js/index.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+	<script>
+        bulmaCarousel.attach('#slider-equipo', {
+            slidesToScroll: 1,
+            slidesToShow: 4,
+            infinite: true,
+            autoplay: true
+        });
+        bulmaCarousel.attach('#testimonios', {
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            infinite: true,
+            autoplay: true
+        });
+        bulmaCarousel.attach('#slider-proyectos', {
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            infinite: true,
+            autoplay: true
+        });
+    	</script>
 </body>
 </html>

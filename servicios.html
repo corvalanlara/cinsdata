@@ -4,9 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 	<title>Servicios - Cinsdata</title>
-	<link rel="stylesheet" type="text/css" href="css/bulma.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bulma.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css"/>
+	<!-- Google tag (gtag.js) --> 
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MZEF46P8LL"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MZEF46P8LL'); </script>
 </head>
 <body>
     <div class="envolvente">
@@ -27,7 +30,7 @@
 			    <div class="navbar-end is-size-4">
                   <a class="navbar-item is-family-secondary" href="servicios.html">Servicios</a>
                   <a class="navbar-item is-family-secondary" href="proyectos.html">Proyectos</a>
-                  <a class="navbar-item is-family-secondary" href="index.html#testimonios">Testimonios</a>
+                  <a class="navbar-item is-family-secondary is-hidden" href="index.html#testimonios">Testimonios</a>
                   <a class="navbar-item is-family-secondary" href="index.html#equipo">Equipo</a>
                   <a class="navbar-item is-family-secondary" href="#contacto">Contacto</a>
 			    </div>
@@ -39,7 +42,7 @@
 	<div class="content has-text-centered">
         <p class="is-size-1 is-uppercase has-text-weight-bold has-text-blue">Servicios</p>
         <section class="section has-background-blue has-text-white">
-            <div class="columns is-desktop">
+            <div class="columns is-desktop is-vcentered">
                 <div class="column">
                     <figure class="image">
                         <img src="images/servicios/1-cinema.jpg" alt="Imagen referencial" />
@@ -56,11 +59,11 @@
                             <p class="is-size-2 is-uppercase has-text-left has-text-weight-bold">Entiende a tus clientes</p>
                         </div>
                     </div>
-                    <p class="is-size-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget faucibus metus. Pellentesque a nunc ut ligula tincidunt scelerisque. Quisque aliquam luctus nulla, vel iaculis turpis facilisis sed</p>
+                    <p class="is-size-3">¡Entiende mejor a tus clientes! Te ayudamos a comprender mejor las necesidades, problemas, relaciones y preferencias de tus clientes a través de los datos.</p>
                 </div>
             </div>
             <hr>
-            <div class="columns is-flex revertido is-desktop">
+            <div class="columns is-flex revertido is-desktop is-vcentered">
                 <div class="column">
                     <div class="columns">
                         <div class="column">
@@ -72,7 +75,7 @@
                             <p class="is-size-2 is-uppercase has-text-left has-text-weight-bold">Investigación + Desarrollo</p>
                         </div>
                     </div>
-                    <p class="is-size-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget faucibus metus. Pellentesque a nunc ut ligula tincidunt scelerisque. Quisque aliquam luctus nulla, vel iaculis turpis facilisis sed</p>
+                    <p class="is-size-3">Desde desarrollo de plataformas hasta análisis de datos complejos, todo utilizando modelos avanzados de aprendizaje automático, inferencia causal, diseño de experimentos conductuales, entre otros.</p>
                 </div>
                 <div class="column">
                     <figure class="image">
@@ -81,7 +84,7 @@
                 </div>
             </div>
             <hr>
-            <div class="columns is-desktop">
+            <div class="columns is-desktop is-vcentered">
                 <div class="column">
                     <figure class="image">
                         <img src="images/servicios/3-cinema.jpg" alt="Imagen referencial" />
@@ -98,44 +101,46 @@
                             <p class="is-size-2 is-uppercase has-text-left has-text-weight-bold">Optimiza tus procesos internos</p>
                         </div>
                     </div>
-                    <p class="is-size-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget faucibus metus. Pellentesque a nunc ut ligula tincidunt scelerisque. Quisque aliquam luctus nulla, vel iaculis turpis facilisis sed</p>
+                    <p class="is-size-3">En nuestra empresa, entendemos que los procesos repetitivos y engorrosos pueden quitarle tiempo y energía a lo que realmente importa. Por eso, te ofrecemos herramientas, plataformas y soluciones para automatizar tus procesos internos y optimizar tus operaciones empresariales.</p>
                 </div>
             </div>
         </section>
-        <section class="columns is-centered">
-            <div class="column is-half">
-                <figure class="image">
-                    <img src="images/logo.png" alt="Logotipo de Cinsdata" />
-                </figure>
-            </div>
+        <section class="section">
+        	<div class="columns is-centered">
+            		<div class="column is-half">
+                		<figure class="image">
+                    			<img src="images/logo.png" alt="Logotipo de Cinsdata" />
+                		</figure>
+            		</div>
+            	</div>
         </section>
         <section id="howto-desktop" class="section is-hidden-touch">
             <div class="hero has-background has-text-white">
                 <img class="hero-background" src="images/fondocomolohacemos.jpg" alt="Fondo"/>
                 <div class="hero-body">
                     <div class="container">
-                    <div class="columns px-6">
+                    <div class="columns px-6 is-flex is-align-items-flex-end">
                         <div class="column mx-6">
                             <span class="icon-text">
                                 <span class="icon">
-                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                    <i class="fa fa-file" aria-hidden="true"></i>
                                 </span>
                                 <span class="is-size-4 has-text-weight-bold has-text-left">Adquisición <br>de datos</span>
                             </span>
                             <div class="borde px-3 pt-3">
-                                <p class="has-text-left">Adquirir datos de forma precisa y relevante es un reto, nuestro equipo maneja estas problemáticas, manteniendo siempre la confidencialidad.</p>
+                                <p class="has-text-left">Sabemos que adquirir y procesar datos de forma precisa y relevante es un reto. Nuestro equipo maneja estas problemáticas y genera sistemas que permiten crear valor, manteniendo siempre la confidencialidad.</p>
                                 <p class="is-size-1 has-text-left has-text-weight-bold has-text-purple">1</p>
                             </div>
                         </div>
                         <div class="column mx-6">
                             <span class="icon-text">
                                 <span class="icon">
-                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
                                 </span>
                                 <span class="is-size-4 has-text-weight-bold has-text-left">Análisis</span>
                             </span>
                             <div class="borde px-3 pt-3">
-                                <p class="has-text-left">Adquirir datos de forma precisa y relevante es un reto, nuestro equipo maneja estas problemáticas, manteniendo siempre la confidencialidad.</p>
+                                <p class="has-text-left">Buscamos extraer valor de la información escondida entre los datos. Usamos herramientas estadísticas avanzadas para comprender y crear el máximo valor a partir de los datos.</p>
                                 <p class="is-size-1 has-text-left has-text-weight-bold has-text-purple">3</p>
                             </div>
                         </div>
@@ -147,7 +152,7 @@
                                 <span class="is-size-4 has-text-weight-bold has-text-left">Visualización</span>
                             </span>
                             <div class="borde px-3 pt-3">
-                                <p class="has-text-left">Adquirir datos de forma precisa y relevante es un reto, nuestro equipo maneja estas problemáticas, manteniendo siempre la confidencialidad.</p>
+                                <p class="has-text-left">Es importante comunicar y entender lo que está sucediendo detrás de cada modelo en tiempo real. Generamos dashboards que permiten mapear, hacer seguimiento y generar alertas tempranas de las distintas etapas de los procesos automatizados.</p>
                                 <p class="is-size-1 has-text-left has-text-weight-bold has-text-purple">5</p>
                             </div>
                         </div>
@@ -159,36 +164,36 @@
                                 <p class="is-size-1 has-text-right has-text-weight-bold has-text-purple">2</p>
                                 <span class="icon-text">
                                     <span class="icon">
-                                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                        <i class="fa fa-cogs" aria-hidden="true"></i>
                                     </span>
                                     <span class="is-size-4 has-text-weight-bold has-text-left">Preparación <br>de datos</span>
                                 </span>
                             </div>
-                            <p class="has-text-left">Adquirir datos de forma precisa y relevante es un reto, nuestro equipo maneja estas problemáticas, manteniendo siempre la confidencialidad.</p>
+                            <p class="has-text-left">Trabajamos para integrar, transformar y limpiar datos de múltiples fuentes. Sabemos que este proceso es complejo, pero en CINSDATA contamos con amplia experiencia y podemos resolver estos desafíos de manera rápida y precisa.</p>
                         </div>
                         <div class="column mx-6">
                             <div class="borde2 px-3 mb-3">
                                 <p class="is-size-1 has-text-right has-text-weight-bold has-text-purple">4</p>
                                 <span class="icon-text">
                                     <span class="icon">
-                                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                        <i class="fa fa-file-code-o" aria-hidden="true"></i>
                                     </span>
                                     <span class="is-size-4 has-text-weight-bold has-text-left">Modelamiento</span>
                                 </span>
                             </div>
-                            <p class="has-text-left">Adquirir datos de forma precisa y relevante es un reto, nuestro equipo maneja estas problemáticas, manteniendo siempre la confidencialidad.</p>
+                            <p class="has-text-left">Creamos modelos para automatizar procesos y aumentar la eficiencia de la empresa. Utilizamos la información obtenida para crear modelos útiles pero a la vez parsimoniosos.</p>
                         </div>
                         <div class="column mx-6">
                             <div class="borde2 px-3 mb-3">
                                 <p class="is-size-1 has-text-right has-text-weight-bold has-text-purple">6</p>
                                 <span class="icon-text">
                                     <span class="icon">
-                                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
                                     </span>
                                     <span class="is-size-4 has-text-weight-bold has-text-left">Despliegue <br>del proyecto</span>
                                 </span>
                             </div>
-                            <p class="has-text-left">Adquirir datos de forma precisa y relevante es un reto, nuestro equipo maneja estas problemáticas, manteniendo siempre la confidencialidad.</p>
+                            <p class="has-text-left">Nos aseguramos de que el modelo seleccionado sea el mejor, validado y testeado para operar de manera definitiva en la empresa.</p>
                         </div>
                     </div>
                     </div>
@@ -206,31 +211,31 @@
                             <p class="is-size-1 has-text-weight-bold has-text-purple">1</p>
                             <span class="icon-text">
                                 <span class="icon">
-                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                    <i class="fa fa-file" aria-hidden="true"></i>
                                 </span>
                                 <span class="is-size-4 has-text-weight-bold has-text-left">Adquisición <br>de datos</span>
                             </span>
-                            <p class="has-text-left">Adquirir datos de forma precisa y relevante es un reto, nuestro equipo maneja estas problemáticas, manteniendo siempre la confidencialidad.</p>
+                            <p class="has-text-left">Sabemos que adquirir y procesar datos de forma precisa y relevante es un reto. Nuestro equipo maneja estas problemáticas y genera sistemas que permiten crear valor, manteniendo siempre la confidencialidad.</p>
                         </div>
                         <div class="column">
                             <p class="is-size-1 has-text-weight-bold has-text-purple">2</p>
                             <span class="icon-text">
                                 <span class="icon">
-                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                    <i class="fa fa-cogs" aria-hidden="true"></i>
                                 </span>
                                 <span class="is-size-4 has-text-weight-bold has-text-left">Preparación <br>de datos</span>
                             </span>
-                            <p class="has-text-left">Adquirir datos de forma precisa y relevante es un reto, nuestro equipo maneja estas problemáticas, manteniendo siempre la confidencialidad.</p>
+                            <p class="has-text-left">Trabajamos para integrar, transformar y limpiar datos de múltiples fuentes. Sabemos que este proceso es complejo, pero en CINSDATA contamos con amplia experiencia y podemos resolver estos desafíos de manera rápida y precisa.</p>
                         </div>
                         <div class="column">
                             <p class="is-size-1 has-text-weight-bold has-text-purple">3</p>
                             <span class="icon-text">
                                 <span class="icon">
-                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
                                 </span>
                                 <span class="is-size-4 has-text-weight-bold has-text-left">Análisis</span>
                             </span>
-                            <p class="has-text-left">Adquirir datos de forma precisa y relevante es un reto, nuestro equipo maneja estas problemáticas, manteniendo siempre la confidencialidad.</p>
+                            <p class="has-text-left">Buscamos extraer valor de la información escondida entre los datos. Usamos herramientas estadísticas avanzadas para comprender y crear el máximo valor a partir de los datos.</p>
                         </div>
                     </div>
                     <div class="columns">
@@ -238,11 +243,11 @@
                             <p class="is-size-1 has-text-weight-bold has-text-purple">4</p>
                             <span class="icon-text">
                                 <span class="icon">
-                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                    <i class="fa fa-file-code-o" aria-hidden="true"></i>
                                 </span>
                                 <span class="is-size-4 has-text-weight-bold has-text-left">Modelamiento</span>
                             </span>
-                            <p class="has-text-left">Adquirir datos de forma precisa y relevante es un reto, nuestro equipo maneja estas problemáticas, manteniendo siempre la confidencialidad.</p>
+                            <p class="has-text-left">Creamos modelos para automatizar procesos y aumentar la eficiencia de la empresa. Utilizamos la información obtenida para crear modelos útiles pero a la vez parsimoniosos.</p>
                         </div>
                         <div class="column">
                             <p class="is-size-1 has-text-weight-bold has-text-purple">5</p>
@@ -252,17 +257,17 @@
                                 </span>
                                 <span class="is-size-4 has-text-weight-bold has-text-left">Visualización</span>
                             </span>
-                            <p class="has-text-left">Adquirir datos de forma precisa y relevante es un reto, nuestro equipo maneja estas problemáticas, manteniendo siempre la confidencialidad.</p>
+                            <p class="has-text-left">Es importante comunicar y entender lo que está sucediendo detrás de cada modelo en tiempo real. Generamos dashboards que permiten mapear, hacer seguimiento y generar alertas tempranas de las distintas etapas de los procesos automatizados.</p>
                         </div>
                         <div class="column">
                             <p class="is-size-1 has-text-weight-bold has-text-purple">6</p>
                             <span class="icon-text">
                                 <span class="icon">
-                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
                                 </span>
                                 <span class="is-size-4 has-text-weight-bold has-text-left">Despliegue <br>del proyecto</span>
                             </span>
-                            <p class="has-text-left">Adquirir datos de forma precisa y relevante es un reto, nuestro equipo maneja estas problemáticas, manteniendo siempre la confidencialidad.</p>
+                            <p class="has-text-left">Nos aseguramos de que el modelo seleccionado sea el mejor, validado y testeado para operar de manera definitiva en la empresa.</p>
                         </div>
                     </div>
                     </div>
@@ -297,7 +302,7 @@
     <div class="column is-two-thirds is-offset-2">
         <div class="container has-text-centered">
             <h1 class="title has-text-white">Contacto</h1>        
-            <form action=""
+            <form action="https://formkeep.com/f/851920d791b4"
             accept-charset="UTF-8"
             enctype="multipart/form-data"
             method="POST">
@@ -369,9 +374,35 @@
 </div>
 </div>
 </section>
+<footer>
+	<div class="py-2 has-background-grey-lighter has-text-centered">
+	    <p class="has-text-beet">Desarrollado por <a id="webdev" href="https://betarraga.cl">betarraga</a></p>
+	</div>
+</footer>
 	</footer>
     </div>
 	<!-- Javascrip -->
 	<script src="js/index.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+	<script>
+        bulmaCarousel.attach('#slider-equipo', {
+            slidesToScroll: 1,
+            slidesToShow: 4,
+            infinite: true,
+            autoplay: true
+        });
+        bulmaCarousel.attach('#testimonios', {
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            infinite: true,
+            autoplay: true
+        });
+        bulmaCarousel.attach('#slider-proyectos', {
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            infinite: true,
+            autoplay: true
+        });
+    	</script>
 </body>
 </html>
