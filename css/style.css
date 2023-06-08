@@ -76,6 +76,16 @@
     background-color: white;
 }
 
+.override-envolvente {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
 .imagenboton {
 	box-shadow: 8px -8px 0 -2px #8AEB32, 8px -8px 0 0 black;
 	transition: box-shadow 0.3s ease-in-out;
@@ -105,7 +115,7 @@
   position: absolute;
   object-fit: cover;
   object-position: center center;
-  width: 100%;
+  width: 1920px;
   height: 100%;
 }
 .hero-background.is-transparent {
@@ -115,6 +125,10 @@
 .gradiente {
 	background: rgb(87,3,97);
 	background: linear-gradient(90deg, rgba(87,3,97,1) 0%, rgba(1,5,65,1) 100%);
+}
+
+#slider-equipo {
+	overflow: hidden;
 }
 
 @media (max-width: 1023px) { 
